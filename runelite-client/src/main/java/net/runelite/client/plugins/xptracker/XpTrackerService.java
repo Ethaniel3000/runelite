@@ -54,6 +54,11 @@ public interface XpTrackerService
 	int getXpHr(Skill skill);
 
 	/**
+	 * Get the amount of xp per minute
+	 */
+	int getXpMin(Skill skill);
+
+	/**
 	 * Get the start goal XP
 	 */
 	int getStartGoalXp(Skill skill);
