@@ -208,7 +208,7 @@ class XpPanel extends PluginPanel
 	{
 		overallExpGained.setText(XpInfoBox.htmlLabel("Gained: ", xpSnapshotTotal.getXpGainedInSession()));
 		overallExpHour.setText(XpInfoBox.htmlLabel("Per hour: ", xpSnapshotTotal.getXpPerHour()));
-		overallExpMin.setText(XpInfoBox.htmlLabel("Per minute: ", xpSnapshotTotal.getXpPerHour()/60));
+		overallExpMin.setText(XpInfoBox.htmlLabel("Per minute: ", xpSnapshotTotal.getXpPerMinute()));
 	}
 
 }

@@ -290,6 +290,7 @@ class XpInfoBox extends JPanel
 				xpSnapshotSingle.getActionsInSession(),
 				xpSnapshotSingle.getActionType().getLabel(),
 				xpSnapshotSingle.getActionsPerHour(),
+				xpSnapshotSingle.getActionsPerMinute(),
 				xpSnapshotSingle.getActionType().getLabel(),
 				xpSnapshotSingle.getTimeTillGoal()));
 

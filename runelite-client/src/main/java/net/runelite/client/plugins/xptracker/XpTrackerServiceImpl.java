@@ -70,7 +70,7 @@ class XpTrackerServiceImpl implements XpTrackerService
 	}
 
 	@Override
-	public int getXpMin(Skill skill) { return plugin.getSkillSnapshot(skill).getXpPerHour()/60; }
+	public int getXpMin(Skill skill) { return plugin.getSkillSnapshot(skill).getXpPerMinute(); }
 
 	@Override
 	public int getStartGoalXp(Skill skill)
